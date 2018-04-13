@@ -141,14 +141,61 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="SslChannelInitializer.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="SslChannelInitializer.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/ssl/SslChannelInitializer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+            <state relative-caret-position="180">
+              <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="HttpRequestHandler.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/websocket/HttpRequestHandler.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="281">
+              <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#987#988#0" expanded="true" />
+                <element signature="e#1021#1022#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RandomAccessFile.java" pinned="false" current-in-tab="false">
+        <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/io/RandomAccessFile.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="843">
+              <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="DefaultChannelHandlerContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/DefaultChannelHandlerContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="287">
+              <caret line="660" column="23" lean-forward="false" selection-start-line="660" selection-start-column="23" selection-end-line="660" selection-end-column="23" />
+              <folding>
+                <element signature="e#21314#21315#0" expanded="true" />
+                <element signature="e#21379#21380#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="ChannelHandlerContext.class" pinned="false" current-in-tab="false">
+        <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/ChannelHandlerContext.class">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="267">
+              <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+              <folding />
             </state>
           </provider>
         </entry>
@@ -314,6 +361,7 @@
         <option value="$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/EchoClientHandler.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/EchoClient.java" />
         <option value="$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/ssl/SslChannelInitializer.java" />
+        <option value="$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/websocket/HttpRequestHandler.java" />
       </list>
     </option>
   </component>
@@ -333,11 +381,11 @@
       </PATH>
     </treeState>
   </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="271" />
-    <option name="y" value="239" />
+  <component name="ProjectFrameBounds">
+    <option name="x" value="691" />
+    <option name="y" value="133" />
     <option name="width" value="1280" />
-    <option name="height" value="716" />
+    <option name="height" value="715" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -395,6 +443,15 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="learning_netty" type="462c0819:PsiDirectoryNode" />
               <item name="ssl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="learning-netty" type="b2602c69:ProjectViewProjectNode" />
+              <item name="learning-netty" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="learning_netty" type="462c0819:PsiDirectoryNode" />
+              <item name="websocket" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -727,15 +784,15 @@
       <workItem from="1522065534178" duration="1294000" />
       <workItem from="1522150335434" duration="3592000" />
       <workItem from="1523534622341" duration="1489000" />
-      <workItem from="1523611902330" duration="55000" />
+      <workItem from="1523611902330" duration="2468000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="10459000" />
+    <option name="totallyTimeSpent" value="12872000" />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1936" height="1056" extended-state="6" />
+    <frame x="691" y="133" width="1280" height="715" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
@@ -749,10 +806,10 @@
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3301282" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="CheckStyle" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.38437003" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.6188748" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.23551503" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3634106" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
@@ -785,101 +842,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/buffer/ByteBuf.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="17" column="22" lean-forward="false" selection-start-line="17" selection-start-column="22" selection-end-line="17" selection-end-column="22" />
-          <folding>
-            <marker date="1522065543508" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522065543508" expanded="false" signature="139:438" ph="..." />
-            <marker date="1522065543508" expanded="true" signature="542:549" ph="{}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/ChannelInboundHandlerAdapter.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="13" lean-forward="false" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
-          <folding>
-            <marker date="1522065543508" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522065543508" expanded="true" signature="282:289" ph="{}" />
-            <marker date="1522065543508" expanded="true" signature="369:413" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="495:541" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="617:657" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="735:777" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="863:904" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="986:1032" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="1125:1173" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="1261:1313" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="1408:1455" ph="{...}" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/util/UniqueName.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="17" column="11" lean-forward="false" selection-start-line="17" selection-start-column="11" selection-end-line="17" selection-end-column="11" />
-          <folding>
-            <marker date="1522065543508" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522065543508" expanded="false" signature="137:222" ph="..." />
-            <marker date="1522065543508" expanded="true" signature="224:242" ph="/**...*/" />
-            <marker date="1522065543508" expanded="true" signature="529:1118" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="1168:1175" ph="{}" />
-            <marker date="1522065543508" expanded="false" signature="1207:1218" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1235:1241" ph=" }" />
-            <marker date="1522065543508" expanded="false" signature="1268:1279" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1294:1300" ph=" }" />
-            <marker date="1522065543508" expanded="false" signature="1333:1344" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1368:1374" ph=" }" />
-            <marker date="1522065543508" expanded="false" signature="1417:1428" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1451:1457" ph=" }" />
-            <marker date="1522065543508" expanded="true" signature="1502:1745" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="1775:1786" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1805:1811" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/bootstrap/ServerBootstrap.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2400">
-          <caret line="103" column="27" lean-forward="false" selection-start-line="103" selection-start-column="27" selection-end-line="103" selection-end-column="27" />
-          <folding>
-            <marker date="1522065543508" expanded="false" signature="0:104" ph="/.../" />
-            <marker date="1522065543508" expanded="false" signature="142:889" ph="..." />
-            <marker date="1522065543508" expanded="true" signature="1386:1393" ph="{}" />
-            <marker date="1522065543508" expanded="true" signature="1450:1896" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="1952:1963" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="1995:2001" ph=" }" />
-            <marker date="1522065543508" expanded="true" signature="2091:2435" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="2519:3105" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="3183:3503" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="3574:3775" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="3815:3826" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="3849:3855" ph=" }" />
-            <marker date="1522065543508" expanded="true" signature="3905:5684" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="5363:5465" ph="initChannel(ch) → {" />
-            <marker date="1522065543508" expanded="false" signature="5660:5675" ph="}" />
-            <marker date="1522065543508" expanded="true" signature="5724:6107" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="6186:6197" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="6220:6226" ph=" }" />
-            <marker date="1522065543508" expanded="false" signature="6302:6313" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="6336:6342" ph=" }" />
-            <marker date="1522065543508" expanded="false" signature="6378:6389" ph=" { " />
-            <marker date="1522065543508" expanded="false" signature="6422:6428" ph=" }" />
-            <marker date="1522065543508" expanded="true" signature="6459:7734" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="7822:10278" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="8243:8430" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="8503:9734" ph="{...}" />
-            <marker date="1522065543508" expanded="true" signature="9833:10272" ph="{...}" />
-            <marker date="1522065543508" expanded="false" signature="10033:10114" ph="run() → { " />
-            <marker date="1522065543508" expanded="false" signature="10139:10179" ph=" }" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/ChannelInitializer.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="300">
@@ -1475,12 +1437,51 @@
         </state>
       </provider>
     </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/ChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="267">
+          <caret line="81" column="18" lean-forward="false" selection-start-line="81" selection-start-column="18" selection-end-line="81" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/io/netty/netty-all/4.0.13.Final/netty-all-4.0.13.Final.jar!/io/netty/channel/DefaultChannelHandlerContext.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="287">
+          <caret line="660" column="23" lean-forward="false" selection-start-line="660" selection-start-column="23" selection-end-line="660" selection-end-column="23" />
+          <folding>
+            <element signature="e#21314#21315#0" expanded="true" />
+            <element signature="e#21379#21380#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files (x86)/Java/jdk1.8.0_144/src.zip!/java/io/RandomAccessFile.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="843">
+          <caret line="120" column="11" lean-forward="false" selection-start-line="120" selection-start-column="11" selection-end-line="120" selection-end-column="11" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/ssl/SslChannelInitializer.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="18" column="5" lean-forward="true" selection-start-line="18" selection-start-column="5" selection-end-line="18" selection-end-column="5" />
+        <state relative-caret-position="180">
+          <caret line="21" column="51" lean-forward="false" selection-start-line="21" selection-start-column="51" selection-end-line="21" selection-end-column="51" />
           <folding>
             <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/marsares/org/learning_netty/websocket/HttpRequestHandler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="281">
+          <caret line="51" column="16" lean-forward="false" selection-start-line="51" selection-start-column="16" selection-end-line="51" selection-end-column="16" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#987#988#0" expanded="true" />
+            <element signature="e#1021#1022#0" expanded="true" />
           </folding>
         </state>
       </provider>
